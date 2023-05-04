@@ -1,3 +1,7 @@
+body {
+  font-family: 'DungGeunMo';
+}
+
 #logoimg {
   position: absolute;
   top: 33%; 
@@ -22,4 +26,12 @@ left: 0px;
 top: 0px;
 background-color: rgba(0,0,0,0.4);
 z-index: -9998;
+}
+
+@font-face {
+  font-family: 'DungGeunMo';
+  src: url('/Storage/DungGeunMo.woff') format('woff');
+  src: url('/Storage/DungGeunMo.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
 }
