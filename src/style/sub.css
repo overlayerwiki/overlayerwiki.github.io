@@ -1,0 +1,25 @@
+#logoimg {
+  position: absolute;
+  top: 33%; 
+  left: 42.5%;
+  z-index: 0; 
+  transform: translateY(-50%);
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.8));
+  aspect-ratio: auto 3300 / 5100;
+}
+
+video#bgvid {
+  position: absolute; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -9999;
+  background: url(polina.jpg) no-repeat;
+  background-size: cover;
+  filter: blur(0.4vw);
+}
+#videocover {
+position: absolute;width: 100vw; height: 100vh;
+left: 0px;
+top: 0px;
+background-color: rgba(0,0,0,0.4);
+z-index: -9998;
+}
