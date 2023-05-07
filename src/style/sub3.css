@@ -36,9 +36,9 @@
 
   #tl_1 {
     position: absolute;
-    top: 53vh; 
-    left: calc(34.8vw / 2 - 12.5%);
-    z-index: 10;
+    top: calc(33.5vh - 3vh);
+    left: calc(28vw - 10vw / 2 - 3vw);
+    z-index: 110;
     transform: translateY(-12vw);
     width: 88vh;
     aspect-ratio: auto 3300 / 5100;
