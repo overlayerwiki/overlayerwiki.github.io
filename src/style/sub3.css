@@ -1,53 +1,54 @@
 .image {
-    width: 5000px;
-    height: 50000px;
-    background-image: url('/Storage/bg.png');
-    background-size: cover;
-  }
+  width: 5000px;
+  height: 50000px;
+  background-image: url('/Storage/bg.png');
+  background-size: cover;
+}
 
 
 #logoimg2 {
-    position: absolute;
-    top: calc(11.5vh - 3vh); 
-    left: calc(48vw - 10vw / 2 - 3vw);
-    z-index: 10; 
-    width: 1200%;
-    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.8));
-    aspect-ratio: auto 3300 / 5100;
-  }
-  
-  #Emoticon {
-    position: absolute;
-    top: calc(12.6vh - 1.1vw - 3vh); 
-    left: calc(50vw - 12vw / 2 + 3vw);
-    z-index: 9; 
-    width: 12vw;
-    aspect-ratio: auto 3300 / 5100;
-  }
-  
-  #text2 {
-    position: absolute;
-    top: 13vh; 
-    left: calc(98.8vw / 2 - 12.5%);
-    z-index: 10;
-    transform: translateY(-12vw);
-    aspect-ratio: auto 3300 / 5100;
-  }
+  position: absolute;
+  top: calc(11.5vh - 3vh);
+  left: calc(48vw - 10vw / 2 - 3vw);
+  z-index: 10;
+  width: 1200%;
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.8));
+  aspect-ratio: auto 3300 / 5100;
+}
 
-  #tl_1 {
-    position: absolute;
-    top: calc(33.5vh - 3vh);
-    left: calc(28vw - 10vw / 2 - 3vw);
-    z-index: 110;
-    transform: translateY(-12vw);
-    width: 88vh;
-    aspect-ratio: auto 3300 / 5100;
-  }
+#Emoticon {
+  position: absolute;
+  top: calc(12.6vh - 1.1vw - 3vh);
+  left: calc(50vw - 12vw / 2 + 3vw);
+  z-index: 9;
+  width: 12vw;
+  aspect-ratio: auto 3300 / 5100;
+}
 
-  #bgimg {
-    position: fixed;
-    width: 300%; height: 300%;
-    left: -100%;
-    top: -100%;
-    z-index: -9998;
-    }
+#text2 {
+  position: absolute;
+  top: 13vh;
+  left: calc(98.8vw / 2 - 12.5%);
+  z-index: 10;
+  transform: translateY(-12vw);
+  aspect-ratio: auto 3300 / 5100;
+}
+
+#tl_1 {
+  position: absolute;
+  top: calc(33.5vh - 3vh);
+  left: calc(28vw - 10vw / 2 - 3vw);
+  z-index: 110;
+  transform: translateY(-12vw);
+  width: 88vh;
+  aspect-ratio: auto 3300 / 5100;
+}
+
+#bgimg {
+  position: fixed;
+  width: 300%;
+  height: 300%;
+  left: -100%;
+  top: -100%;
+  z-index: -9998;
+}
