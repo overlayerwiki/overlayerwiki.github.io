@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow');
 
+
 .container {
 	width: 100%;
 	position: relative;
@@ -33,12 +34,12 @@ h1.main, p.demos {
 }
 .sp-container h2 {
 	position: absolute;
-	top: 50%;
+	top: calc(45vh + 5vw);
 	line-height: 100px;
 	height: 90px;
 	margin-top: -50px;
-	font-size: 80px;
-	width: 100%;
+	font-size: 4vw;
+	width: 100vw;
 	text-align: center;
 	color: transparent;
 	-webkit-animation: blurFadeInOut 3s ease-in backwards;
@@ -80,11 +81,11 @@ h1.main, p.demos {
 
 .sp-container h2.frame-1 span:nth-child(4) {
     position: absolute;
-	top: 220%;
+	top: calc(10vh + 5vw);
 	left: 0%;
 	line-height: 100px;
 	margin-top: -50px;
-	font-size: 120px;
+	font-size: 6vw;
 	width: 100%;
 	text-align: center;
     -webkit-animation-delay: 5s;

@@ -11,7 +11,7 @@
     top: calc(11.5vh - 3vh); 
     left: calc(48vw - 10vw / 2 - 3vw);
     z-index: 10; 
-    width: 12vw;
+    width: 1200%;
     filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.8));
     aspect-ratio: auto 3300 / 5100;
   }
