@@ -1,62 +1,61 @@
 <html lang="Ko" dir="ltr">
-    <header>
-      <body>
-        <head>
-         <meta charset=utf-8>
-         <title>Overlayer</title>
 
-         <!--이미지 및 글꼴-->
+<head>
+  <meta charset=utf-8>
+  <title>Overlayer</title>
 
-         <link href="Storage/iconimg.ico" rel="shortcut icon" type="image/x-icon">
-         <img id="logoimg" src="Storage/ov2Logo.png" alt="Logo img" width="15%">
-   
-         <!--배경 비디오-->
+  <link href="Storage/iconimg.ico" rel="shortcut icon" type="image/x-icon">
 
-         <video autoplay loop muted id="bgvid">
-         <source src="Storage/BGV.mp4" type="video/mp4">
-         </video>
+  <!--스타일시트(CSS File)-->
+  <link rel='stylesheet' href='src/style/sub.css'>
+  <link rel='stylesheet' href='src/style/main.css'>
+  <link rel='stylesheet' href='src/style/motion.css'>
+  <link rel='stylesheet' href='src/style/menu.css'>
 
-         <div id="videocover"></div>
+</head>
 
-         <!--스타일시트(CSS File)-->
-         <link rel='stylesheet' href='src/style/sub.css'>
-         <link rel='stylesheet' href='src/style/main.css'>
-         <link rel='stylesheet' href='src/style/motion.css'>
-         <link rel='stylesheet' href='src/style/menu.css'>
-         
+<body>
+  
+  <!--이미지 및 글꼴-->
+  <img id="logoimg" src="Storage/ov2Logo.png" alt="Logo img" width="15%">
 
+  <!--배경 비디오-->
+  <video autoplay loop muted id="bgvid">
+    <source src="Storage/BGV.mp4" type="video/mp4">
+  </video>
 
+  <div id="videocover"></div>
 
-         <!--메뉴바 (Menu)-->
-         <header class="header">
-          <a href="index.html" class="logo">Overlayer</a>
-          <input class="menu-btn" type="checkbox" id="menu-btn" />
-          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-          <ul class="menu">
-            <li><a href="htu.html">How to use</a></li>
-            <li><a href="tl.html">Tag List</a></li>
-            <li><a href="ct.html">CustomTag</a></li>
-            <li><a href="ul.html">Update Log</a></li>
-          </ul>
-      
-            
-          <!--애니메이션 효과-->
-          <div class="sp-container">
-            <div class="sp-content">
-              <div class="sp-globe"></div>
-              <h2 class="frame-1">
-                <span>SEARCH.</span>
-                <span>CREATE.</span>
-                <span>ENJOY.</span>
-                <span>Overlayer</span>
-              </h2>
-            </div>
+  <!--메뉴바 (Menu)-->
+  <header class="header">
+    <a href="index.html" class="logo">Overlayer</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="htu.html">How to use</a></li>
+      <li><a href="tl.html">Tag List</a></li>
+      <li><a href="ct.html">CustomTag</a></li>
+      <li><a href="ul.html">Update Log</a></li>
+    </ul>
+  </header>
 
-            <div id="loading-wrapper">
-              <div id="loading-text"></div>
-              <div id="loading-content"></div>
-            </div>
-        </head>
-      </body>
-    </header>
+  <!--애니메이션 효과-->
+  <div class="sp-container">
+    <div class="sp-content">
+      <div class="sp-globe"></div>
+      <h2 class="frame-1">
+        <span>SEARCH.</span>
+        <span>CREATE.</span>
+        <span>ENJOY.</span>
+        <span>Overlayer</span>
+      </h2>
+    </div>
+  </div>
+
+  <div id="loading-wrapper">
+    <div id="loading-text"></div>
+    <div id="loading-content"></div>
+  </div>
+</body>
+
 </html>
