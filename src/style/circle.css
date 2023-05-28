@@ -8,8 +8,8 @@
 
 #loading-content {
 	position: absolute;
-	left: 42.5%;
-	top: 33%;
+	top: calc(11.2vh - 3vh); 
+    left: calc(48vw - 10vw / 2 - 3vw);
 	width: 18vw;
 	height: 18vw;
 	z-index: 1;
